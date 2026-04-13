@@ -3,13 +3,22 @@
 > **Pick materials. Set ratios. Pick a form. Explore 5 ways they could combine.**
 > Then decompose the result back into its parts. Open-source, deterministic, LLM-optional.
 
+### 🔗 Live demo
+
+| | URL |
+|---|---|
+| **Frontend** | https://if-maker-web.vercel.app |
+| **Backend API** | https://if-maker-production.up.railway.app |
+
+Try it in your browser — no install, no signup. Drop 2+ materials into slots, set ratios, pick a form, and press **생성 (Generate)**. Every synthesis also runs through an **invention layer** (goal fit, novelty, patent-style claim, prior-art check, signed log).
+
 ```
 Pick → Weigh → Shape → Explore → Commit → Decompose
 ```
 
-IF Maker is a virtual lab that lets you **combine materials, objects, and elements into new speculative concepts** — and, crucially, **decompose any result back into its parts**. Every synthesis is a typed object with a structural diagram, weighted properties, and an Unity-ready export.
+IF Maker is a virtual lab that lets you **combine materials, objects, and elements into new speculative concepts** — and, crucially, **decompose any result back into its parts**. Every synthesis is a typed object with a structural diagram, weighted properties, a built-in invention report, and an Unity-ready export.
 
-It's a prototype built in a few days with [Claude Code](https://claude.ai/code), FastAPI, Next.js, and Three.js.
+Built casually over **~7 wall-clock hours with [Claude Code](https://claude.ai/code)**, on top of a design I'd been kicking around for a while. Stack: FastAPI + Next.js + Three.js, ~9k lines of code plus ~2k lines of content data.
 
 ---
 
@@ -45,6 +54,8 @@ No ML training. No vector search. No database. No auth. Just a pure functional e
 | **Unity Export** | `ItemRecipe` JSON with stable GUIDs, rarity tiers, parts list, stats |
 | **CSV / Generic JSON Export** | Spreadsheet + schema-agnostic payloads |
 | **BYOK LLM (optional)** | OpenAI SDK-compatible. Works with LM Studio, Ollama, OpenAI, DeepSeek, Groq, Qwen — any provider |
+| **Invention Layer** | Goal-fit score, novelty vs prior syntheses, patent-style Claim 1, Google Patents prior-art lookup, signed JSONL log |
+| **Per-item Analysis** | Every material / slot / decomposition comes with a narrative report — dominant traits, weak points, typical uses, tradeoffs |
 | **Deterministic Core** | No LLM required. Same input → same output. Covered by 25 regression tests. |
 
 ---
