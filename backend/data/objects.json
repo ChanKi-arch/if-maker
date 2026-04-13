@@ -1,0 +1,658 @@
+[
+  {
+    "id": "chair",
+    "name": "Chair",
+    "category": "object",
+    "group": "furniture",
+    "summary": "A sitting structure composed of a seat, support frame, and optional backrest.",
+    "tags": [
+      "furniture",
+      "support",
+      "seating"
+    ],
+    "properties": {
+      "stability": 7,
+      "comfort": 5,
+      "portability": 4,
+      "durability": 6
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "seat",
+        "backrest",
+        "legs",
+        "frame"
+      ],
+      "relations": [
+        "seat supported by legs",
+        "backrest attached to seat",
+        "frame stabilizes overall structure"
+      ]
+    },
+    "uses": [
+      "sitting",
+      "resting",
+      "workspace furniture"
+    ],
+    "risks": [
+      "tipping if unstable",
+      "low ergonomics if poorly designed"
+    ],
+    "emoji": "🪑"
+  },
+  {
+    "id": "robotic_hand",
+    "name": "Robotic Hand",
+    "category": "object",
+    "group": "robotics",
+    "summary": "A multi-part manipulation device with fingers, palm, joints, and sensor surfaces.",
+    "tags": [
+      "robotics",
+      "manipulation",
+      "grip",
+      "sensor"
+    ],
+    "properties": {
+      "precision": 8,
+      "adaptability": 7,
+      "force_control": 7,
+      "fragility_handling": 6
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "palm",
+        "finger_segments",
+        "joints",
+        "sensor_pads"
+      ],
+      "relations": [
+        "fingers connected to palm",
+        "joints control finger articulation",
+        "sensor pads detect contact and pressure"
+      ]
+    },
+    "uses": [
+      "grasping",
+      "manipulation",
+      "robot control",
+      "precision tasks"
+    ],
+    "risks": [
+      "sensor miscalibration",
+      "insufficient grip adaptation",
+      "fragile object damage"
+    ],
+    "emoji": "🤖"
+  },
+  {
+    "id": "drone_shell",
+    "name": "Drone Shell",
+    "category": "object",
+    "group": "robotics",
+    "summary": "An outer body structure that protects internal drone components while maintaining low weight.",
+    "tags": [
+      "drone",
+      "shell",
+      "protective",
+      "lightweight"
+    ],
+    "properties": {
+      "protection": 7,
+      "weight_efficiency": 8,
+      "heat_tolerance": 5,
+      "repairability": 4
+    },
+    "structure": {
+      "type": "layered_shell",
+      "parts": [
+        "outer shell",
+        "mounting points",
+        "internal cavity"
+      ],
+      "relations": [
+        "outer shell encloses internal cavity",
+        "mounting points connect shell to frame"
+      ]
+    },
+    "uses": [
+      "drone protection",
+      "component housing",
+      "lightweight enclosure"
+    ],
+    "risks": [
+      "impact cracking",
+      "poor heat venting"
+    ],
+    "emoji": "🛸"
+  },
+  {
+    "id": "protective_glove",
+    "name": "Protective Glove",
+    "category": "object",
+    "group": "wearable",
+    "summary": "A wearable hand covering that combines protection, grip, and flexibility.",
+    "tags": [
+      "wearable",
+      "hand",
+      "protection",
+      "grip"
+    ],
+    "properties": {
+      "comfort": 6,
+      "protection": 7,
+      "flexibility": 7,
+      "grip_support": 8
+    },
+    "structure": {
+      "type": "layered_wearable",
+      "parts": [
+        "outer protective layer",
+        "inner padding",
+        "finger zones",
+        "palm grip zone"
+      ],
+      "relations": [
+        "outer layer protects hand",
+        "inner padding improves comfort",
+        "palm grip zone improves contact control"
+      ]
+    },
+    "uses": [
+      "safety work",
+      "handling tools",
+      "sports",
+      "robot teleoperation"
+    ],
+    "risks": [
+      "reduced tactile precision if too thick",
+      "heat buildup during prolonged use"
+    ],
+    "emoji": "🧤"
+  },
+  {
+    "id": "surgical_gripper",
+    "name": "Surgical Gripper",
+    "category": "object",
+    "group": "robotics",
+    "summary": "A precision gripping tool designed to manipulate delicate tissues or instruments.",
+    "tags": [
+      "medical",
+      "precision",
+      "gripper",
+      "surgery"
+    ],
+    "properties": {
+      "precision": 10,
+      "safety": 9,
+      "force_control": 9,
+      "durability": 6
+    },
+    "structure": {
+      "type": "precision_tool",
+      "parts": [
+        "tip",
+        "grip arms",
+        "joint mechanism",
+        "control linkage"
+      ],
+      "relations": [
+        "tip contacts tissue",
+        "grip arms close around target",
+        "joint mechanism controls fine motion"
+      ]
+    },
+    "uses": [
+      "surgery",
+      "medical robotics",
+      "delicate manipulation"
+    ],
+    "risks": [
+      "overpressure on fragile material",
+      "mechanical misalignment"
+    ],
+    "emoji": "⚕️"
+  },
+  {
+    "id": "helmet",
+    "name": "Helmet",
+    "category": "object",
+    "group": "wearable",
+    "summary": "A head protection device combining a hard outer shell with an inner energy-absorbing layer.",
+    "tags": [
+      "wearable",
+      "protection",
+      "head",
+      "shell"
+    ],
+    "properties": {
+      "protection": 9,
+      "comfort": 6,
+      "weight_efficiency": 6,
+      "ventilation": 5
+    },
+    "structure": {
+      "type": "layered_shell",
+      "parts": [
+        "outer shell",
+        "impact liner",
+        "comfort padding",
+        "strap system"
+      ],
+      "relations": [
+        "outer shell deflects impact",
+        "impact liner absorbs energy",
+        "comfort padding fits head",
+        "strap system secures helmet"
+      ]
+    },
+    "uses": [
+      "sports",
+      "construction",
+      "motorcycling",
+      "industrial safety"
+    ],
+    "risks": [
+      "restricted vision if poorly designed",
+      "heat buildup"
+    ],
+    "emoji": "⛑️"
+  },
+  {
+    "id": "exoskeleton",
+    "name": "Exoskeleton",
+    "category": "object",
+    "group": "robotics",
+    "summary": "A wearable robotic frame that augments human strength, endurance, and mobility.",
+    "tags": [
+      "robotics",
+      "wearable",
+      "assistive",
+      "frame"
+    ],
+    "properties": {
+      "force_assist": 9,
+      "flexibility": 6,
+      "weight_efficiency": 5,
+      "comfort": 5
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "frame",
+        "actuators",
+        "joints",
+        "control unit",
+        "attachment points"
+      ],
+      "relations": [
+        "frame wraps body",
+        "actuators drive joints",
+        "control unit coordinates motion",
+        "attachment points secure frame to user"
+      ]
+    },
+    "uses": [
+      "rehabilitation",
+      "industrial lifting",
+      "military support"
+    ],
+    "risks": [
+      "battery limitation",
+      "fit mismatch",
+      "control latency"
+    ],
+    "emoji": "🦾"
+  },
+  {
+    "id": "lens",
+    "name": "Optical Lens",
+    "category": "object",
+    "group": "optical",
+    "summary": "A curved transparent element that focuses or disperses light to form images.",
+    "tags": [
+      "optical",
+      "transparent",
+      "precision",
+      "curved"
+    ],
+    "properties": {
+      "precision": 9,
+      "durability": 5,
+      "clarity": 9,
+      "weight_efficiency": 7
+    },
+    "structure": {
+      "type": "precision_tool",
+      "parts": [
+        "curved surface",
+        "body",
+        "edge mount",
+        "coating"
+      ],
+      "relations": [
+        "curved surface bends light",
+        "body holds form",
+        "edge mount attaches lens to frame",
+        "coating reduces glare"
+      ]
+    },
+    "uses": [
+      "cameras",
+      "microscopes",
+      "eyewear",
+      "telescopes"
+    ],
+    "risks": [
+      "scratching",
+      "thermal stress",
+      "coating degradation"
+    ],
+    "emoji": "🔍"
+  },
+  {
+    "id": "backpack",
+    "name": "Backpack",
+    "category": "object",
+    "group": "wearable",
+    "emoji": "🎒",
+    "summary": "A wearable carrier with straps, main compartment, and load distribution frame.",
+    "tags": [
+      "wearable",
+      "carrier",
+      "straps",
+      "storage"
+    ],
+    "properties": {
+      "capacity": 8,
+      "comfort": 6,
+      "durability": 7,
+      "weight_efficiency": 6
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "main compartment",
+        "shoulder straps",
+        "frame",
+        "hip belt"
+      ],
+      "relations": [
+        "compartment holds load",
+        "straps distribute weight",
+        "frame provides rigidity"
+      ]
+    },
+    "uses": [
+      "hiking",
+      "commute",
+      "travel"
+    ],
+    "risks": [
+      "strap pressure points",
+      "overloading failure"
+    ]
+  },
+  {
+    "id": "smart_watch",
+    "name": "Smart Watch",
+    "category": "object",
+    "group": "wearable",
+    "emoji": "⌚",
+    "summary": "A wrist-worn display with sensors, battery, and wireless radios.",
+    "tags": [
+      "wearable",
+      "electronic",
+      "sensor",
+      "display"
+    ],
+    "properties": {
+      "precision": 8,
+      "connectivity": 9,
+      "battery_life": 4,
+      "durability": 6
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "display",
+        "battery",
+        "processor",
+        "sensor array",
+        "strap"
+      ],
+      "relations": [
+        "processor reads sensors",
+        "battery powers everything",
+        "display shows output"
+      ]
+    },
+    "uses": [
+      "fitness tracking",
+      "notifications",
+      "payments"
+    ],
+    "risks": [
+      "short battery",
+      "water damage"
+    ]
+  },
+  {
+    "id": "drone",
+    "name": "Quadcopter Drone",
+    "category": "object",
+    "group": "robotics",
+    "emoji": "🚁",
+    "summary": "A 4-rotor aerial platform with stabilizer, camera, and radio link.",
+    "tags": [
+      "robotics",
+      "aerial",
+      "quad",
+      "camera"
+    ],
+    "properties": {
+      "agility": 9,
+      "payload": 4,
+      "range": 6,
+      "stability": 7
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "frame",
+        "4 rotors",
+        "flight controller",
+        "camera gimbal",
+        "battery"
+      ],
+      "relations": [
+        "controller drives rotors",
+        "gimbal stabilizes camera",
+        "battery powers system"
+      ]
+    },
+    "uses": [
+      "aerial photography",
+      "surveying",
+      "racing"
+    ],
+    "risks": [
+      "crash damage",
+      "battery limits"
+    ]
+  },
+  {
+    "id": "guitar",
+    "name": "Acoustic Guitar",
+    "category": "object",
+    "group": "furniture",
+    "emoji": "🎸",
+    "summary": "A stringed resonating body with fretted neck and tuning head.",
+    "tags": [
+      "acoustic",
+      "stringed",
+      "wood",
+      "resonant"
+    ],
+    "properties": {
+      "resonance": 9,
+      "playability": 7,
+      "durability": 5,
+      "weight_efficiency": 5
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "body",
+        "soundhole",
+        "neck",
+        "frets",
+        "strings",
+        "headstock"
+      ],
+      "relations": [
+        "strings transmit vibration to body",
+        "frets set pitch",
+        "headstock tensions strings"
+      ]
+    },
+    "uses": [
+      "performance",
+      "recording",
+      "learning"
+    ],
+    "risks": [
+      "humidity cracks",
+      "string breakage"
+    ]
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "category": "object",
+    "group": "furniture",
+    "emoji": "🚲",
+    "summary": "A two-wheeled human-powered vehicle with frame, drivetrain, and steering.",
+    "tags": [
+      "vehicle",
+      "frame",
+      "mechanical",
+      "wheeled"
+    ],
+    "properties": {
+      "efficiency": 9,
+      "durability": 7,
+      "weight_efficiency": 7,
+      "comfort": 5
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "frame",
+        "wheels",
+        "drivetrain",
+        "handlebars",
+        "seat",
+        "brakes"
+      ],
+      "relations": [
+        "drivetrain drives wheels",
+        "frame supports rider",
+        "brakes slow wheels"
+      ]
+    },
+    "uses": [
+      "transport",
+      "sport",
+      "exercise"
+    ],
+    "risks": [
+      "tire puncture",
+      "chain failure"
+    ]
+  },
+  {
+    "id": "microphone",
+    "name": "Microphone",
+    "category": "object",
+    "group": "optical",
+    "emoji": "🎤",
+    "summary": "An acoustic transducer that converts sound pressure into electrical signal.",
+    "tags": [
+      "acoustic",
+      "transducer",
+      "sensor",
+      "audio"
+    ],
+    "properties": {
+      "sensitivity": 9,
+      "fidelity": 8,
+      "durability": 5,
+      "directivity": 7
+    },
+    "structure": {
+      "type": "part_based",
+      "parts": [
+        "diaphragm",
+        "coil",
+        "magnet",
+        "housing",
+        "cable"
+      ],
+      "relations": [
+        "diaphragm moves coil in magnet",
+        "housing isolates handling noise"
+      ]
+    },
+    "uses": [
+      "recording",
+      "broadcast",
+      "live sound"
+    ],
+    "risks": [
+      "handling noise",
+      "moisture damage"
+    ]
+  },
+  {
+    "id": "solar_panel",
+    "name": "Solar Panel",
+    "category": "object",
+    "group": "optical",
+    "emoji": "🔆",
+    "summary": "A rigid panel of photovoltaic cells that converts sunlight to DC power.",
+    "tags": [
+      "energy",
+      "photovoltaic",
+      "rigid",
+      "grid"
+    ],
+    "properties": {
+      "efficiency": 6,
+      "durability": 8,
+      "weight_efficiency": 4,
+      "output": 7
+    },
+    "structure": {
+      "type": "layered",
+      "form": "sheet",
+      "layers": [
+        "tempered glass",
+        "photovoltaic cells",
+        "eva encapsulant",
+        "backsheet",
+        "aluminum frame"
+      ]
+    },
+    "uses": [
+      "off-grid power",
+      "rooftop energy",
+      "spacecraft"
+    ],
+    "risks": [
+      "shading losses",
+      "degradation over years"
+    ]
+  }
+]

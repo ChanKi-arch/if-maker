@@ -1,0 +1,138 @@
+[
+  {
+    "id": "fire",
+    "name": "Fire",
+    "category": "element",
+    "group": "energy",
+    "emoji": "🔥",
+    "shape": "torus_flame",
+    "summary": "Intense heat. Burns, carbonizes, and transforms organic and polymer matter.",
+    "tags": ["heat", "energy", "destructive", "transformation"],
+    "transform": {
+      "effect": "burn",
+      "intensity": 9,
+      "prefixes": ["Carbonized", "Burned", "Charred", "Scorched"],
+      "suffixes": ["Ash", "Coal", "Ember"],
+      "blocks": ["cold", "water"]
+    }
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "category": "element",
+    "group": "matter",
+    "emoji": "💧",
+    "shape": "wave_sphere",
+    "summary": "Liquid medium. Cools, dissolves, softens, and shapes.",
+    "tags": ["liquid", "cool", "dissolve", "shape"],
+    "transform": {
+      "effect": "wet",
+      "intensity": 5,
+      "prefixes": ["Wet", "Hydrated", "Soaked", "Dissolved"],
+      "suffixes": ["Solution", "Slurry", "Mist"],
+      "blocks": ["fire"]
+    }
+  },
+  {
+    "id": "heat",
+    "name": "Heat",
+    "category": "element",
+    "group": "energy",
+    "emoji": "🌡️",
+    "shape": "glow_sphere",
+    "summary": "Pure thermal energy. Softens, anneals, and reshapes.",
+    "tags": ["thermal", "energy", "anneal", "reshape"],
+    "transform": {
+      "effect": "heat",
+      "intensity": 7,
+      "prefixes": ["Heated", "Annealed", "Softened", "Molten"],
+      "suffixes": ["Alloy", "Melt", "Ingot"],
+      "blocks": ["cold"]
+    }
+  },
+  {
+    "id": "cold",
+    "name": "Cold",
+    "category": "element",
+    "group": "energy",
+    "emoji": "❄️",
+    "shape": "icosahedron",
+    "summary": "Cryogenic cooling. Brittles, freezes, and stabilizes.",
+    "tags": ["cryogenic", "freeze", "brittle", "stabilize"],
+    "transform": {
+      "effect": "freeze",
+      "intensity": 7,
+      "prefixes": ["Frozen", "Chilled", "Cryo", "Brittle"],
+      "suffixes": ["Crystal", "Frost", "Glaze"],
+      "blocks": ["heat", "fire"]
+    }
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity",
+    "category": "element",
+    "group": "energy",
+    "emoji": "⚡",
+    "shape": "lightning",
+    "summary": "Electrical energy. Charges, magnetizes, and activates conductive materials.",
+    "tags": ["electric", "charge", "magnetize", "conductive"],
+    "transform": {
+      "effect": "electrify",
+      "intensity": 8,
+      "prefixes": ["Charged", "Magnetized", "Activated", "Polarized"],
+      "suffixes": ["Coil", "Cell", "Field"],
+      "blocks": []
+    }
+  },
+  {
+    "id": "pressure",
+    "name": "Pressure",
+    "category": "element",
+    "group": "force",
+    "emoji": "💨",
+    "shape": "compressed_cube",
+    "summary": "Intense mechanical force. Compresses, densifies, and reshapes.",
+    "tags": ["force", "compress", "densify", "reshape"],
+    "transform": {
+      "effect": "compress",
+      "intensity": 8,
+      "prefixes": ["Compressed", "Densified", "Reinforced", "Forged"],
+      "suffixes": ["Plate", "Block", "Mass"],
+      "blocks": []
+    }
+  },
+  {
+    "id": "radiation",
+    "name": "Radiation",
+    "category": "element",
+    "group": "energy",
+    "emoji": "☢️",
+    "shape": "trefoil",
+    "summary": "High-energy radiation. Irradiates, transforms at atomic level.",
+    "tags": ["radiation", "irradiate", "transform", "atomic"],
+    "transform": {
+      "effect": "irradiate",
+      "intensity": 10,
+      "prefixes": ["Irradiated", "Activated", "Fissile", "Energized"],
+      "suffixes": ["Isotope", "Core", "Flux"],
+      "blocks": []
+    }
+  },
+  {
+    "id": "vibration",
+    "name": "Vibration",
+    "category": "element",
+    "group": "force",
+    "emoji": "🎵",
+    "shape": "wave",
+    "summary": "Resonant mechanical waves. Resonates, fractures, and harmonizes.",
+    "tags": ["wave", "resonate", "fracture", "harmonize"],
+    "transform": {
+      "effect": "vibrate",
+      "intensity": 6,
+      "prefixes": ["Resonant", "Harmonic", "Vibrated", "Sonic"],
+      "suffixes": ["Chord", "Wave", "Pulse"],
+      "blocks": []
+    }
+  }
+]

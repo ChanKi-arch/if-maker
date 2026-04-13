@@ -1,0 +1,928 @@
+[
+  {
+    "id": "carbon_fiber",
+    "name": "Carbon Fiber",
+    "category": "material",
+    "group": "composite",
+    "summary": "A lightweight and strong composite material made of woven carbon fibers and resin.",
+    "tags": [
+      "lightweight",
+      "strong",
+      "composite",
+      "rigid"
+    ],
+    "properties": {
+      "strength": 9,
+      "flexibility": 4,
+      "weight": 2,
+      "heat_resistance": 6,
+      "impact_absorption": 4,
+      "cost": 8
+    },
+    "structure": {
+      "type": "layered",
+      "form": "sheet",
+      "layers": [
+        "woven carbon fiber layer",
+        "resin matrix"
+      ]
+    },
+    "uses": [
+      "drones",
+      "sports equipment",
+      "automotive parts",
+      "protective shells"
+    ],
+    "risks": [
+      "high cost",
+      "difficult repair",
+      "complex manufacturing"
+    ],
+    "emoji": "🕸️"
+  },
+  {
+    "id": "rubber",
+    "name": "Rubber",
+    "category": "material",
+    "group": "polymer",
+    "summary": "A flexible material with high damping and shock absorption properties.",
+    "tags": [
+      "flexible",
+      "soft",
+      "damping",
+      "shock-absorbing"
+    ],
+    "properties": {
+      "strength": 4,
+      "flexibility": 9,
+      "weight": 4,
+      "heat_resistance": 4,
+      "impact_absorption": 9,
+      "cost": 3
+    },
+    "structure": {
+      "type": "continuous",
+      "form": "elastic solid",
+      "layers": [
+        "elastic polymer body"
+      ]
+    },
+    "uses": [
+      "tires",
+      "grips",
+      "shock absorbers",
+      "protective padding"
+    ],
+    "risks": [
+      "low heat resistance",
+      "wear over time",
+      "lower rigidity"
+    ],
+    "emoji": "🔶"
+  },
+  {
+    "id": "aluminum",
+    "name": "Aluminum",
+    "category": "material",
+    "group": "metal",
+    "summary": "A lightweight metal commonly used for structural components and housings.",
+    "tags": [
+      "metal",
+      "lightweight",
+      "conductive",
+      "structural"
+    ],
+    "properties": {
+      "strength": 6,
+      "flexibility": 5,
+      "weight": 3,
+      "heat_resistance": 7,
+      "impact_absorption": 3,
+      "cost": 4
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal body",
+      "layers": [
+        "aluminum alloy bulk"
+      ]
+    },
+    "uses": [
+      "frames",
+      "device housings",
+      "robot bodies",
+      "lightweight structures"
+    ],
+    "risks": [
+      "lower damping",
+      "surface scratching",
+      "heat transfer to nearby components"
+    ],
+    "emoji": "⬜"
+  },
+  {
+    "id": "ceramic_coating",
+    "name": "Ceramic Coating",
+    "category": "material",
+    "group": "ceramic",
+    "summary": "A heat-resistant surface coating used to protect underlying materials.",
+    "tags": [
+      "heat-resistant",
+      "surface",
+      "coating",
+      "protective"
+    ],
+    "properties": {
+      "strength": 5,
+      "flexibility": 2,
+      "weight": 1,
+      "heat_resistance": 9,
+      "impact_absorption": 2,
+      "cost": 6
+    },
+    "structure": {
+      "type": "surface_layer",
+      "form": "thin coating",
+      "layers": [
+        "ceramic surface film"
+      ]
+    },
+    "uses": [
+      "thermal protection",
+      "surface durability",
+      "industrial coatings"
+    ],
+    "risks": [
+      "brittle under impact",
+      "difficult bonding on some surfaces"
+    ],
+    "emoji": "🔲"
+  },
+  {
+    "id": "silicone_gel",
+    "name": "Silicone Gel",
+    "category": "material",
+    "group": "polymer",
+    "summary": "A soft and compliant gel material suitable for cushioning and tactile interfaces.",
+    "tags": [
+      "soft",
+      "gel",
+      "cushioning",
+      "tactile"
+    ],
+    "properties": {
+      "strength": 2,
+      "flexibility": 8,
+      "weight": 4,
+      "heat_resistance": 5,
+      "impact_absorption": 8,
+      "cost": 5
+    },
+    "structure": {
+      "type": "soft_body",
+      "form": "gel layer",
+      "layers": [
+        "silicone gel core"
+      ]
+    },
+    "uses": [
+      "medical padding",
+      "grips",
+      "soft interfaces",
+      "tactile surfaces"
+    ],
+    "risks": [
+      "shape instability under load",
+      "limited structural support"
+    ],
+    "emoji": "💧"
+  },
+  {
+    "id": "steel",
+    "name": "Steel",
+    "category": "material",
+    "group": "metal",
+    "summary": "A strong and durable metal for rigid load-bearing structures.",
+    "tags": [
+      "metal",
+      "strong",
+      "rigid",
+      "durable"
+    ],
+    "properties": {
+      "strength": 10,
+      "flexibility": 3,
+      "weight": 8,
+      "heat_resistance": 8,
+      "impact_absorption": 3,
+      "cost": 5
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal frame",
+      "layers": [
+        "steel bulk body"
+      ]
+    },
+    "uses": [
+      "frames",
+      "machinery",
+      "tools",
+      "support structures"
+    ],
+    "risks": [
+      "heavy weight",
+      "corrosion risk if untreated"
+    ],
+    "emoji": "⚙️"
+  },
+  {
+    "id": "titanium",
+    "name": "Titanium",
+    "category": "material",
+    "group": "metal",
+    "summary": "A high-strength, corrosion-resistant metal with excellent strength-to-weight ratio.",
+    "tags": [
+      "metal",
+      "lightweight",
+      "strong",
+      "corrosion-resistant",
+      "biocompatible"
+    ],
+    "properties": {
+      "strength": 9,
+      "flexibility": 4,
+      "weight": 4,
+      "heat_resistance": 9,
+      "impact_absorption": 4,
+      "cost": 9
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal body",
+      "layers": [
+        "titanium alloy bulk"
+      ]
+    },
+    "uses": [
+      "aerospace frames",
+      "medical implants",
+      "high-end tools"
+    ],
+    "risks": [
+      "very high cost",
+      "difficult machining"
+    ],
+    "emoji": "🔷"
+  },
+  {
+    "id": "kevlar",
+    "name": "Kevlar",
+    "category": "material",
+    "group": "fiber",
+    "summary": "A high-tensile synthetic fiber woven into layers for impact and cut resistance.",
+    "tags": [
+      "fiber",
+      "strong",
+      "flexible",
+      "impact-resistant",
+      "lightweight"
+    ],
+    "properties": {
+      "strength": 9,
+      "flexibility": 6,
+      "weight": 2,
+      "heat_resistance": 7,
+      "impact_absorption": 7,
+      "cost": 7
+    },
+    "structure": {
+      "type": "layered",
+      "form": "woven sheet",
+      "layers": [
+        "aramid fiber weave",
+        "binding matrix"
+      ]
+    },
+    "uses": [
+      "body armor",
+      "protective panels",
+      "reinforcement layers"
+    ],
+    "risks": [
+      "UV degradation",
+      "moisture absorption"
+    ],
+    "emoji": "🛡️"
+  },
+  {
+    "id": "foam",
+    "name": "EVA Foam",
+    "category": "material",
+    "group": "foam",
+    "summary": "A lightweight closed-cell foam used for cushioning and lightweight padding.",
+    "tags": [
+      "soft",
+      "lightweight",
+      "cushioning",
+      "foam"
+    ],
+    "properties": {
+      "strength": 2,
+      "flexibility": 8,
+      "weight": 1,
+      "heat_resistance": 3,
+      "impact_absorption": 8,
+      "cost": 2
+    },
+    "structure": {
+      "type": "soft_body",
+      "form": "closed-cell foam",
+      "layers": [
+        "foam cell matrix"
+      ]
+    },
+    "uses": [
+      "padding",
+      "lightweight packaging",
+      "insulation"
+    ],
+    "risks": [
+      "compression fatigue",
+      "limited load bearing"
+    ],
+    "emoji": "☁️"
+  },
+  {
+    "id": "glass",
+    "name": "Tempered Glass",
+    "category": "material",
+    "group": "glass",
+    "summary": "A rigid transparent material with high hardness and brittle failure characteristics.",
+    "tags": [
+      "rigid",
+      "transparent",
+      "brittle",
+      "hard"
+    ],
+    "properties": {
+      "strength": 7,
+      "flexibility": 1,
+      "weight": 6,
+      "heat_resistance": 8,
+      "impact_absorption": 2,
+      "cost": 4
+    },
+    "structure": {
+      "type": "solid",
+      "form": "plate",
+      "layers": [
+        "tempered glass bulk"
+      ]
+    },
+    "uses": [
+      "windows",
+      "displays",
+      "protective screens"
+    ],
+    "risks": [
+      "shatter on impact",
+      "no ductility"
+    ],
+    "emoji": "🪟"
+  },
+  {
+    "id": "wood",
+    "name": "Hardwood",
+    "category": "material",
+    "group": "wood",
+    "summary": "A natural fibrous material with balanced strength, weight, and workability.",
+    "tags": [
+      "natural",
+      "fibrous",
+      "lightweight",
+      "workable"
+    ],
+    "properties": {
+      "strength": 6,
+      "flexibility": 5,
+      "weight": 4,
+      "heat_resistance": 3,
+      "impact_absorption": 5,
+      "cost": 3
+    },
+    "structure": {
+      "type": "fibrous",
+      "form": "grain body",
+      "layers": [
+        "cellulose fiber grain"
+      ]
+    },
+    "uses": [
+      "furniture",
+      "structural frames",
+      "tool handles"
+    ],
+    "risks": [
+      "moisture warping",
+      "fire risk"
+    ],
+    "emoji": "🪵"
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "category": "material",
+    "group": "metal",
+    "summary": "A highly conductive metal used in wiring, electronics, and heat transfer components.",
+    "tags": [
+      "metal",
+      "conductive",
+      "ductile",
+      "thermal"
+    ],
+    "properties": {
+      "strength": 5,
+      "flexibility": 6,
+      "weight": 8,
+      "heat_resistance": 7,
+      "impact_absorption": 3,
+      "cost": 6
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal body",
+      "layers": [
+        "copper bulk"
+      ]
+    },
+    "uses": [
+      "wiring",
+      "heat sinks",
+      "electronic contacts"
+    ],
+    "risks": [
+      "oxidation",
+      "heavy weight"
+    ],
+    "emoji": "🟠"
+  },
+  {
+    "id": "graphene",
+    "name": "Graphene Sheet",
+    "category": "material",
+    "group": "composite",
+    "emoji": "🪵",
+    "summary": "A single-atom-thick carbon lattice with exceptional strength and conductivity.",
+    "tags": [
+      "lightweight",
+      "strong",
+      "conductive",
+      "atomic"
+    ],
+    "properties": {
+      "strength": 10,
+      "flexibility": 6,
+      "weight": 1,
+      "heat_resistance": 9,
+      "impact_absorption": 5,
+      "cost": 10
+    },
+    "structure": {
+      "type": "layered",
+      "form": "monolayer",
+      "layers": [
+        "hexagonal carbon lattice"
+      ]
+    },
+    "uses": [
+      "conductors",
+      "ultra-thin films",
+      "composites"
+    ],
+    "risks": [
+      "extreme cost",
+      "fragile in isolation"
+    ]
+  },
+  {
+    "id": "concrete",
+    "name": "Concrete",
+    "category": "material",
+    "group": "ceramic",
+    "emoji": "🧱",
+    "summary": "A bulk structural material of aggregate bonded by cement paste.",
+    "tags": [
+      "heavy",
+      "rigid",
+      "structural",
+      "bulk"
+    ],
+    "properties": {
+      "strength": 8,
+      "flexibility": 1,
+      "weight": 9,
+      "heat_resistance": 8,
+      "impact_absorption": 4,
+      "cost": 2
+    },
+    "structure": {
+      "type": "solid",
+      "form": "cast block",
+      "layers": [
+        "cement matrix",
+        "aggregate"
+      ]
+    },
+    "uses": [
+      "buildings",
+      "foundations",
+      "infrastructure"
+    ],
+    "risks": [
+      "heavy weight",
+      "brittle under tension"
+    ]
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "category": "material",
+    "group": "fiber",
+    "emoji": "🟫",
+    "summary": "A flexible, durable natural hide treated for wear and abrasion.",
+    "tags": [
+      "flexible",
+      "natural",
+      "durable",
+      "wearable"
+    ],
+    "properties": {
+      "strength": 6,
+      "flexibility": 8,
+      "weight": 4,
+      "heat_resistance": 4,
+      "impact_absorption": 6,
+      "cost": 5
+    },
+    "structure": {
+      "type": "layered",
+      "form": "sheet",
+      "layers": [
+        "grain side",
+        "flesh side"
+      ]
+    },
+    "uses": [
+      "apparel",
+      "furniture",
+      "upholstery"
+    ],
+    "risks": [
+      "moisture damage",
+      "animal sourcing"
+    ]
+  },
+  {
+    "id": "glass_fiber",
+    "name": "Fiberglass",
+    "category": "material",
+    "group": "fiber",
+    "emoji": "✨",
+    "summary": "A woven glass strand mat bonded with polymer resin for strong-light panels.",
+    "tags": [
+      "lightweight",
+      "rigid",
+      "woven",
+      "insulating"
+    ],
+    "properties": {
+      "strength": 7,
+      "flexibility": 3,
+      "weight": 3,
+      "heat_resistance": 8,
+      "impact_absorption": 4,
+      "cost": 4
+    },
+    "structure": {
+      "type": "layered",
+      "form": "woven sheet",
+      "layers": [
+        "glass strand mat",
+        "polymer resin"
+      ]
+    },
+    "uses": [
+      "boat hulls",
+      "car panels",
+      "insulation"
+    ],
+    "risks": [
+      "skin irritation",
+      "limited recyclability"
+    ]
+  },
+  {
+    "id": "cork",
+    "name": "Cork",
+    "category": "material",
+    "group": "foam",
+    "emoji": "🟤",
+    "summary": "A compressible natural honeycomb-cell material harvested from oak bark.",
+    "tags": [
+      "soft",
+      "lightweight",
+      "insulating",
+      "natural"
+    ],
+    "properties": {
+      "strength": 3,
+      "flexibility": 7,
+      "weight": 1,
+      "heat_resistance": 5,
+      "impact_absorption": 7,
+      "cost": 4
+    },
+    "structure": {
+      "type": "soft_body",
+      "form": "cellular",
+      "layers": [
+        "cork cell matrix"
+      ]
+    },
+    "uses": [
+      "stoppers",
+      "flooring",
+      "insulation"
+    ],
+    "risks": [
+      "compression set",
+      "limited load bearing"
+    ]
+  },
+  {
+    "id": "silk",
+    "name": "Silk",
+    "category": "material",
+    "group": "fiber",
+    "emoji": "🪡",
+    "summary": "A smooth natural protein fiber with exceptional tensile strength for its weight.",
+    "tags": [
+      "soft",
+      "smooth",
+      "strong",
+      "natural"
+    ],
+    "properties": {
+      "strength": 7,
+      "flexibility": 8,
+      "weight": 1,
+      "heat_resistance": 4,
+      "impact_absorption": 5,
+      "cost": 7
+    },
+    "structure": {
+      "type": "fibrous",
+      "form": "filament",
+      "layers": [
+        "protein filament"
+      ]
+    },
+    "uses": [
+      "apparel",
+      "biomedical sutures",
+      "parachutes"
+    ],
+    "risks": [
+      "UV degradation",
+      "moisture sensitivity"
+    ]
+  },
+  {
+    "id": "nylon",
+    "name": "Nylon",
+    "category": "material",
+    "group": "polymer",
+    "emoji": "🧵",
+    "summary": "A tough synthetic polyamide with high tensile strength and wear resistance.",
+    "tags": [
+      "polymer",
+      "strong",
+      "flexible",
+      "wear-resistant"
+    ],
+    "properties": {
+      "strength": 6,
+      "flexibility": 7,
+      "weight": 2,
+      "heat_resistance": 4,
+      "impact_absorption": 6,
+      "cost": 3
+    },
+    "structure": {
+      "type": "continuous",
+      "form": "extruded",
+      "layers": [
+        "polyamide chain"
+      ]
+    },
+    "uses": [
+      "gears",
+      "rope",
+      "apparel"
+    ],
+    "risks": [
+      "moisture absorption",
+      "creep under load"
+    ]
+  },
+  {
+    "id": "brass",
+    "name": "Brass",
+    "category": "material",
+    "group": "metal",
+    "emoji": "🥇",
+    "summary": "A copper-zinc alloy prized for machinability and decorative finish.",
+    "tags": [
+      "metal",
+      "alloy",
+      "corrosion-resistant",
+      "decorative"
+    ],
+    "properties": {
+      "strength": 6,
+      "flexibility": 5,
+      "weight": 8,
+      "heat_resistance": 7,
+      "impact_absorption": 4,
+      "cost": 5
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal body",
+      "layers": [
+        "cu-zn alloy bulk"
+      ]
+    },
+    "uses": [
+      "fittings",
+      "instruments",
+      "decorative parts"
+    ],
+    "risks": [
+      "tarnishing",
+      "zinc loss at high temp"
+    ]
+  },
+  {
+    "id": "platinum",
+    "name": "Platinum",
+    "category": "material",
+    "group": "metal",
+    "emoji": "⚪",
+    "summary": "A rare noble metal with extreme chemical stability and catalytic properties.",
+    "tags": [
+      "metal",
+      "noble",
+      "catalyst",
+      "rare"
+    ],
+    "properties": {
+      "strength": 8,
+      "flexibility": 6,
+      "weight": 10,
+      "heat_resistance": 10,
+      "impact_absorption": 5,
+      "cost": 10
+    },
+    "structure": {
+      "type": "solid",
+      "form": "metal body",
+      "layers": [
+        "platinum bulk"
+      ]
+    },
+    "uses": [
+      "catalysts",
+      "jewelry",
+      "electrodes"
+    ],
+    "risks": [
+      "very high cost",
+      "heavy weight"
+    ]
+  },
+  {
+    "id": "magnet",
+    "name": "Neodymium Magnet",
+    "category": "material",
+    "group": "metal",
+    "emoji": "🧲",
+    "summary": "A rare-earth permanent magnet with the strongest commercial field density.",
+    "tags": [
+      "metal",
+      "magnetic",
+      "rare-earth",
+      "brittle"
+    ],
+    "properties": {
+      "strength": 7,
+      "flexibility": 1,
+      "weight": 7,
+      "heat_resistance": 4,
+      "impact_absorption": 2,
+      "cost": 8
+    },
+    "structure": {
+      "type": "solid",
+      "form": "sintered",
+      "layers": [
+        "ndfeb crystal"
+      ]
+    },
+    "uses": [
+      "motors",
+      "sensors",
+      "speakers"
+    ],
+    "risks": [
+      "brittle fracture",
+      "demagnetization above 80C"
+    ]
+  },
+  {
+    "id": "aerogel",
+    "name": "Aerogel",
+    "category": "material",
+    "group": "foam",
+    "emoji": "🫧",
+    "summary": "An ultra-low-density porous solid with extraordinary thermal insulation.",
+    "tags": [
+      "foam",
+      "insulating",
+      "lightweight",
+      "porous"
+    ],
+    "properties": {
+      "strength": 2,
+      "flexibility": 1,
+      "weight": 1,
+      "heat_resistance": 10,
+      "impact_absorption": 3,
+      "cost": 9
+    },
+    "structure": {
+      "type": "soft_body",
+      "form": "porous gel",
+      "layers": [
+        "silica nanostructure"
+      ]
+    },
+    "uses": [
+      "spacecraft insulation",
+      "cryogenic storage",
+      "lightweight composites"
+    ],
+    "risks": [
+      "brittle",
+      "expensive to produce"
+    ]
+  },
+  {
+    "id": "wax",
+    "name": "Paraffin Wax",
+    "category": "material",
+    "group": "polymer",
+    "emoji": "🕯",
+    "summary": "A soft white solid that melts at low temperatures; used for sealing and casting.",
+    "tags": [
+      "soft",
+      "meltable",
+      "waterproof"
+    ],
+    "properties": {
+      "strength": 1,
+      "flexibility": 5,
+      "weight": 3,
+      "heat_resistance": 1,
+      "impact_absorption": 3,
+      "cost": 2
+    },
+    "structure": {
+      "type": "continuous",
+      "form": "cast block",
+      "layers": [
+        "hydrocarbon wax"
+      ]
+    },
+    "uses": [
+      "candles",
+      "sealing",
+      "casting mold"
+    ],
+    "risks": [
+      "low melting point",
+      "flammable"
+    ]
+  }
+]

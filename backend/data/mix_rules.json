@@ -1,0 +1,305 @@
+[
+  {
+    "id": "rule_rigid_outer_soft_inner",
+    "match": {
+      "categories": ["material", "material"],
+      "tags_any_a": ["strong", "rigid", "lightweight"],
+      "tags_any_b": ["soft", "flexible", "shock-absorbing", "cushioning"]
+    },
+    "goal_keywords": ["impact", "absorption", "protection", "shock", "safety"],
+    "template": {
+      "concept_name": "Hybrid Shock Shell",
+      "summary": "A layered protective concept combining a rigid outer shell, a bonding interface, and a soft inner damping core.",
+      "diagram": {
+        "nodes": [
+          {"id": "shell", "label": "Rigid Outer Shell"},
+          {"id": "bond", "label": "Bonding Interface"},
+          {"id": "core", "label": "Soft Damping Core"},
+          {"id": "mount", "label": "Mount Points"},
+          {"id": "vent", "label": "Heat Vent Channels"}
+        ],
+        "edges": [
+          {"from": "shell", "to": "bond", "type": "covers"},
+          {"from": "bond", "to": "core", "type": "binds"},
+          {"from": "mount", "to": "shell", "type": "anchored_to"},
+          {"from": "vent", "to": "core", "type": "passes_through"}
+        ]
+      },
+      "advantages": [
+        "improved impact protection",
+        "balanced rigidity and cushioning",
+        "thermal venting through inner core",
+        "secure mounting interface"
+      ],
+      "risks": [
+        "bonding fatigue under cyclic stress",
+        "manufacturing complexity",
+        "material expansion mismatch"
+      ],
+      "use_cases": ["protective gear", "drone payload bay", "impact-rated equipment casing"]
+    }
+  },
+  {
+    "id": "rule_lightweight_heat_resistant_shell",
+    "match": {
+      "categories": ["material", "material"],
+      "tags_any_a": ["lightweight", "metal", "structural"],
+      "tags_any_b": ["heat-resistant", "coating", "protective"]
+    },
+    "goal_keywords": ["heat", "thermal", "resistance", "shell", "housing"],
+    "template": {
+      "concept_name": "Thermal Shield Housing",
+      "summary": "A lightweight structural body protected by a multi-layer heat-resistant treatment with sealed bonding and exposed venting.",
+      "diagram": {
+        "nodes": [
+          {"id": "core", "label": "Lightweight Core"},
+          {"id": "primer", "label": "Bonding Primer"},
+          {"id": "shield", "label": "Thermal Shield"},
+          {"id": "topcoat", "label": "Sealed Topcoat"},
+          {"id": "vents", "label": "Vent Apertures"}
+        ],
+        "edges": [
+          {"from": "primer", "to": "core", "type": "applied_to"},
+          {"from": "shield", "to": "primer", "type": "bonded_on"},
+          {"from": "topcoat", "to": "shield", "type": "seals"},
+          {"from": "vents", "to": "core", "type": "exposes"}
+        ]
+      },
+      "advantages": [
+        "lightweight construction",
+        "improved thermal isolation",
+        "sealed against contamination",
+        "controlled heat dissipation"
+      ],
+      "risks": [
+        "coating delamination",
+        "thermal cycling fatigue",
+        "vent surface erosion"
+      ],
+      "use_cases": ["device housing", "robot exoskeleton shell", "industrial enclosure"]
+    }
+  },
+  {
+    "id": "rule_fiber_reinforced_composite",
+    "match": {
+      "categories": ["material", "material"],
+      "tags_any_a": ["fiber", "composite", "strong"],
+      "tags_any_b": ["flexible", "fiber", "impact-resistant"]
+    },
+    "goal_keywords": ["armor", "reinforcement", "ballistic", "durable"],
+    "template": {
+      "concept_name": "Reinforced Composite Panel",
+      "summary": "A multi-layer fiber-reinforced panel combining tensile strength with impact dispersion and a backing damping layer.",
+      "diagram": {
+        "nodes": [
+          {"id": "weave", "label": "Primary Fiber Weave"},
+          {"id": "matrix", "label": "Binding Matrix"},
+          {"id": "spall", "label": "Spall Liner"},
+          {"id": "backing", "label": "Impact Backing"},
+          {"id": "edge", "label": "Edge Reinforcement"}
+        ],
+        "edges": [
+          {"from": "weave", "to": "matrix", "type": "embedded_in"},
+          {"from": "matrix", "to": "spall", "type": "bonded_to"},
+          {"from": "spall", "to": "backing", "type": "absorbs_into"},
+          {"from": "edge", "to": "weave", "type": "reinforces"}
+        ]
+      },
+      "advantages": [
+        "high tensile strength",
+        "excellent impact dispersion",
+        "controlled spall behavior",
+        "moderate areal weight"
+      ],
+      "risks": ["layered delamination", "edge cracking", "cost per unit area"],
+      "use_cases": ["body armor", "vehicle plating", "structural reinforcement panels"]
+    }
+  },
+  {
+    "id": "rule_hand_soft_interface",
+    "match": {
+      "categories": ["object", "material"],
+      "ids_any_a": ["robotic_hand", "surgical_gripper"],
+      "tags_any_b": ["soft", "gel", "tactile", "flexible", "cushioning"]
+    },
+    "goal_keywords": ["grip", "fragile", "tactile", "precision", "safe"],
+    "template": {
+      "concept_name": "Soft Contact Manipulator",
+      "summary": "A precision gripping structure augmented with a compliant soft contact pad, a sensor mesh, and an adaptive tip.",
+      "diagram": {
+        "nodes": [
+          {"id": "frame", "label": "Rigid Gripper Frame"},
+          {"id": "joint", "label": "Articulation Joint"},
+          {"id": "pad", "label": "Soft Contact Pad"},
+          {"id": "mesh", "label": "Tactile Sensor Mesh"},
+          {"id": "tip", "label": "Adaptive Tip"}
+        ],
+        "edges": [
+          {"from": "frame", "to": "joint", "type": "drives"},
+          {"from": "joint", "to": "tip", "type": "positions"},
+          {"from": "pad", "to": "tip", "type": "covers"},
+          {"from": "mesh", "to": "pad", "type": "embedded_in"}
+        ]
+      },
+      "advantages": [
+        "safer fragile-object handling",
+        "rich tactile feedback",
+        "reduced contact pressure",
+        "adaptive surface fit"
+      ],
+      "risks": [
+        "soft layer maintenance",
+        "sensor calibration drift",
+        "reduced rigidity at the contact point"
+      ],
+      "use_cases": ["medical robotics", "delicate manufacturing", "assistive robotics"]
+    }
+  },
+  {
+    "id": "rule_chair_comfort_upgrade",
+    "match": {
+      "categories": ["object", "material"],
+      "ids_any_a": ["chair"],
+      "tags_any_b": ["soft", "flexible", "shock-absorbing", "gel", "cushioning"]
+    },
+    "goal_keywords": ["comfort", "ergonomic", "seat", "cushion"],
+    "template": {
+      "concept_name": "Adaptive Comfort Seat",
+      "summary": "A seating concept combining a structural chair frame with a multi-zone comfort layer and ergonomic support contours.",
+      "diagram": {
+        "nodes": [
+          {"id": "frame", "label": "Chair Frame"},
+          {"id": "seat", "label": "Seat Base"},
+          {"id": "cushion", "label": "Adaptive Cushion"},
+          {"id": "lumbar", "label": "Lumbar Support"},
+          {"id": "cover", "label": "Breathable Cover"}
+        ],
+        "edges": [
+          {"from": "frame", "to": "seat", "type": "supports"},
+          {"from": "cushion", "to": "seat", "type": "added_on"},
+          {"from": "lumbar", "to": "frame", "type": "attached_to"},
+          {"from": "cover", "to": "cushion", "type": "wraps"}
+        ]
+      },
+      "advantages": [
+        "improved comfort over time",
+        "better pressure distribution",
+        "lumbar ergonomic support",
+        "ventilated surface"
+      ],
+      "risks": ["foam fatigue", "cover wear", "added weight"],
+      "use_cases": ["office seating", "medical seating", "long-duration sitting"]
+    }
+  },
+  {
+    "id": "rule_helmet_energy_absorbing",
+    "match": {
+      "categories": ["object", "material"],
+      "ids_any_a": ["helmet", "drone_shell"],
+      "tags_any_b": ["foam", "shock-absorbing", "cushioning", "soft"]
+    },
+    "goal_keywords": ["impact", "safety", "protection", "shock"],
+    "template": {
+      "concept_name": "Reinforced Impact Shell",
+      "summary": "A shell concept upgraded with a multi-density energy-absorbing liner, comfort padding, and a redirect zone for oblique impacts.",
+      "diagram": {
+        "nodes": [
+          {"id": "shell", "label": "Outer Shell"},
+          {"id": "redirect", "label": "Oblique Redirect Layer"},
+          {"id": "liner", "label": "Energy Liner"},
+          {"id": "comfort", "label": "Comfort Padding"},
+          {"id": "strap", "label": "Retention System"}
+        ],
+        "edges": [
+          {"from": "shell", "to": "redirect", "type": "lined_with"},
+          {"from": "redirect", "to": "liner", "type": "feeds"},
+          {"from": "liner", "to": "comfort", "type": "supported_by"},
+          {"from": "strap", "to": "shell", "type": "secures"}
+        ]
+      },
+      "advantages": [
+        "improved impact dissipation",
+        "rotational impact mitigation",
+        "comfortable long-wear fit",
+        "secure retention"
+      ],
+      "risks": ["added bulk", "ventilation reduction", "liner compaction over time"],
+      "use_cases": ["sports helmets", "industrial safety", "drone payload protection"]
+    }
+  },
+  {
+    "id": "rule_exoskeleton_lightweight_frame",
+    "match": {
+      "categories": ["object", "material"],
+      "ids_any_a": ["exoskeleton"],
+      "tags_any_b": ["lightweight", "composite", "strong", "metal"]
+    },
+    "goal_keywords": ["mobility", "support", "assist", "lightweight", "endurance"],
+    "template": {
+      "concept_name": "Lightweight Assist Frame",
+      "summary": "An exoskeleton concept rebuilt with a lightweight load-bearing frame, distributed actuators, smart joints, and ergonomic body interfaces.",
+      "diagram": {
+        "nodes": [
+          {"id": "spine", "label": "Spine Frame"},
+          {"id": "limb", "label": "Limb Linkages"},
+          {"id": "actuator", "label": "Actuator Joints"},
+          {"id": "control", "label": "Control Unit"},
+          {"id": "interface", "label": "Body Interface Pads"},
+          {"id": "battery", "label": "Power Pack"}
+        ],
+        "edges": [
+          {"from": "spine", "to": "limb", "type": "supports"},
+          {"from": "actuator", "to": "limb", "type": "drives"},
+          {"from": "control", "to": "actuator", "type": "commands"},
+          {"from": "battery", "to": "control", "type": "powers"},
+          {"from": "interface", "to": "spine", "type": "couples_to"}
+        ]
+      },
+      "advantages": [
+        "reduced wearer fatigue",
+        "longer operation time",
+        "improved mobility range",
+        "better load distribution"
+      ],
+      "risks": [
+        "joint stress redistribution",
+        "fit calibration time",
+        "battery weight balance"
+      ],
+      "use_cases": ["rehabilitation", "field work assistance", "logistics support"]
+    }
+  },
+  {
+    "id": "rule_default_speculative_mix",
+    "match": {
+      "categories": ["any", "any"]
+    },
+    "goal_keywords": [],
+    "template": {
+      "concept_name": "Speculative Hybrid Concept",
+      "summary": "A speculative hybrid built by fusing the structural cores of both inputs through a shared interface and a derived emergent layer.",
+      "diagram": {
+        "nodes": [
+          {"id": "a_core", "label": "Input A Core"},
+          {"id": "b_core", "label": "Input B Core"},
+          {"id": "bridge", "label": "Shared Interface"},
+          {"id": "fusion", "label": "Fusion Layer"},
+          {"id": "shell", "label": "Emergent Shell"}
+        ],
+        "edges": [
+          {"from": "a_core", "to": "bridge", "type": "feeds"},
+          {"from": "b_core", "to": "bridge", "type": "feeds"},
+          {"from": "bridge", "to": "fusion", "type": "merges_into"},
+          {"from": "fusion", "to": "shell", "type": "shapes"}
+        ]
+      },
+      "advantages": [
+        "encourages exploratory design",
+        "supports rapid idea generation",
+        "useful for virtual experimentation"
+      ],
+      "risks": ["compatibility uncertain", "requires further validation"],
+      "use_cases": ["concept design", "brainstorming", "educational experimentation"]
+    }
+  }
+]
