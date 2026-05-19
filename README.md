@@ -7,7 +7,7 @@
 
 | | URL |
 |---|---|
-| **Frontend** | https://if-maker-web.vercel.app |
+| **Frontend** | https://if-maker.vercel.app |
 | **Backend API** | https://if-maker-production.up.railway.app |
 
 Try it in your browser — no install, no signup. Drop 2+ materials into slots, set ratios, pick a form, and press **생성 (Generate)**. Every synthesis also runs through an **invention layer** (goal fit, novelty, patent-style claim, prior-art check, signed log).
