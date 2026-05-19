@@ -60,9 +60,9 @@ No ML training. No vector search. No database. No auth. Just a pure functional e
 
 ---
 
-## Screenshots
+## Demo
 
-*(Add screenshots here. Suggested shots: slot grid with 3 items, Explore 5-variant view, concept result with 6 parts, decompose roundtrip, CREATED tab history.)*
+![IF Maker — pick materials, set ratios, explore syntheses, decompose back](./docs/if-maker-demo.gif)
 
 ---
 
@@ -71,7 +71,7 @@ No ML training. No vector search. No database. No auth. Just a pure functional e
 ### Docker Compose (recommended)
 
 ```bash
-git clone https://github.com/your-name/if-maker.git
+git clone https://github.com/ChanKi-arch/if-maker.git
 cd if-maker
 docker compose up -d
 ```
